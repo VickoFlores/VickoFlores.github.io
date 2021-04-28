@@ -1,0 +1,54 @@
+body{
+    font-family: "Bunny Honey";
+}
+
+h2{
+    background-color: rgb(253, 201, 240);
+    text-align: center;
+    color: rgb(248, 10, 216);
+    font-size: 30px;
+    border-radius: 20px;
+}
+main{
+    background-image: url("../IMGS/Cacaguate.jpg");
+    width: 100%;
+    border-radius: 20px;
+}
+
+main img{
+    width: 324px;
+    margin: auto;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+
+.Ing{
+    background-color: rgb(253, 201, 240);
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+
+.Ing h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.Ing table{
+    margin: auto;
+}
+
+th{
+    border: rgb(248, 10, 216) solid 3px;
+    border-radius: 20px;
+}
+
+tr{
+    border: rgb(248, 10, 216) solid 3px;
+    border-radius: 20px;
+}
+
+td{
+    border: rgb(248, 10, 216) solid 3px;
+    border-radius: 20px;
+}
