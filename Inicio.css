@@ -193,7 +193,7 @@ form label{
 
 .submit{
     box-shadow: 2px 2px 1px black;
-    background: linear-gradient(to bottom, #ffe8d4 #cf059d);
+    background: linear-gradient(to bottom, #ffe8d4, #cf059d);
     border-radius: 20px;
     margin: 5px;
     width: 100px;
