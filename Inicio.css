@@ -7,7 +7,7 @@ body{
 
 main{
     width: 70%;
-    background-image: url("../IMGS/Helado.png");
+    background-image: url("Helado.png");
     justify-items: center;
     align-items: center;
     margin: 5px;
