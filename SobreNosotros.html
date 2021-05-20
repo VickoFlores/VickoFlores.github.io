@@ -20,139 +20,142 @@
 
 
     <body>
-        <header>
-            <h1 class="animate__animated animate__rubberBand">La Pastelería de Mamucha</h1>
-            <nav class="main">
-    
-                <ul>
-                    <li id="Inicio"><a href="index.html">Inicio</a></li>
-                    <li id="Recetas">Recetas</li>
-                    <li id="About"><a href="SobreNosotros.html">Sobre Nosotros</a></li>
-                </ul>
-    
-            </nav>
-        </header>
-
-        <main>
-            <section class="Inf">
-                <h3>Información</h3>
-                <p>La Pastelería de Mamucha es un legado familiar que data desde 500 A.C. <br>
-                    Nuestras presparaciones se destacan por las más exquisitas, y detalladas, tanto así que hasta mi tataratara...abuelo
-                    preparó el banquete para la reina Isabel.
-                    <a href="#Contac">Contáctanos.</a>
-                    <br>
-                    Ver sucursal de Paris<a href="#Paris"><i class="far fa-eye"></i></a>
-                    <br>
-                    Ver sucursal de China<a href="#China"><i class="far fa-eye"></i></a>
-                    <br>
-                    Ver sucursal del Submarino de Nemo<a href="#Nemo"><i class="far fa-eye"></i></a>
-                    <br>
-                </p>
-                
-            </section>
-
-            <section class="Sucur">
-                <h3>Sucursales</h3>
-                <ul>
-                    <li><a name="Paris"></a><a href="https://goo.gl/maps/pNhpNyub2mMu3DMD7">Paris, al ladito de la Torre Effiel</a></li>
-                    <iframe class="Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d167998.10803373053!2d2.206977064368058!3d48.858774103123785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2zUGFyw61zLCBGcmFuY2lh!5e0!3m2!1ses-419!2sar!4v1619536274520!5m2!1ses-419!2sar" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    <li><a name="China"></a><a href="https://goo.gl/maps/YVwKZ6WNCLYUsmuL6">Al final de la Muralla de China</a></li>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.9587739884355!2d116.56818621502822!3d40.43191176264057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35f121d7687f2ccf%3A0xd040259b950522df!2sMuralla%20China!5e0!3m2!1ses-419!2sar!4v1619702329912!5m2!1ses-419!2sar" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    <li><a name="Nemo"></a><a href="https://goo.gl/maps/cMV5r5Dvk3NxUXrG8">En el camarote 3 del Submarino de Nemo</a></li>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49232530.168156125!2d-30.47072705000001!3d-41.13637775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a518a690ca2a93d%3A0xdce616971e86954!2sAtl%C3%A1ntico%20Sur!5e0!3m2!1ses-419!2sar!4v1619773646383!5m2!1ses-419!2sar" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </ul>
-            </section>
-        </main>
-
-        <aside>
-            <section>
-                <h3>Tabla de Precios</h3>
-                <table>
-                    <tr>
-                        <th>Precios</th>
-                        <th>Tipo</th>
-                        <th>Cantidad</th>
-                    </tr>
-
-                    <tr>
-                        <td>$500</td>
-                        <td>CupCakes</td>
-                        <td>12</td>
-                    </tr>
-
-                    <tr>
-                        <td>$850</td>
-                        <td>Torta</td>
-                        <td>1</td>
-                    </tr>
-
-                    <tr>
-                        <td>$700</td>
-                        <td>Tiramisú</td>
-                        <td>1</td>
-                    </tr>
-                </table>
-            </section>
-            <section>
-                <h3>Formulario de Pedidos</h3>
-                <form action="mailto:vg134420@gmail.com" method="POST" enctype="text/plain">
-                
-                <p>Nombre</p><input type="text" name="nombre" size="15" maxlength="50">
-                <br>
-                <p>Apellido</p><input type="text" name="nombre" size="15" maxlength="50">
-                <br>
-                <p>Email</p><input type="text" name="email" size="15" maxlength="50">
-                <br>
-                <p>Mes de entrega</p><input type="month" name="mes" size="15">
-                <br>
-                <p>Hora de Entregra</p><input type="time" name="hora" size="15">
-                <br>
-                <p>Lugar de Entrega</p><input type="text" name="lugar" size="15">
-                <br>
-                <p>Número de Celular</p><input type="tel" name="tel" size="15">
-                <br>
-                <h3>¿Que quiere?</h3>
-                <img src="Tortas.jpg" width="200px">
-                <br>
-                <p>Pastel</p><input type="checkbox" name="Pastel" size="15">
-                
-                <p>Cantidad</p><input type="number" name="cant1" size="15">
-                <br>
-                <img src="pexels-jess-bailey-designs-853006.jpg" width="200px">
-                <br>
-                <p>CupCakes</p><input type="checkbox" name="Cup" size="15">
-                
-                <p>Cantidad</p><input type="number" name="cant2" size="15">
-                <br>
-                <img src="Tiramisu.jpg" width="200px">
-                <br>
-                <p>Tiramisú</p><input type="checkbox" name="Tira" size="15">
-                
-                <p>Cantidad</p><input type="number" name="cant3" size="15">
-                <br>
-                <input type="submit" value="Enviar" class="submit">
-                </form>
-            </section>
-
-            
-        </aside>
         
+        <div class="Contenedor">
+            <header>
+                <h1 class="animate__animated animate__rubberBand">La Pastelería de Mamucha</h1>
+                <nav class="main">
 
-        <footer>
+                    <ul>
+                        <li id="Inicio"><a href="index.html">Inicio</a></li>
+                        <li id="Recetas">Recetas</li>
+                        <li id="About"><a href="SobreNosotros.html">Sobre Nosotros</a></li>
+                    </ul>
 
-            <a name="Contac"></a>
-         
-            <h2>Información</h2>
-                    
-                    <h3>Todos los Derechos Reservados</h3>
+                </nav>
+            </header>
 
-            <h2>Contacto</h2>
-                    <a href="https://wa.me/qr/3E3ZAQ53YCCON1" target="_blank"><h3 class="red"><i class="fab fa-whatsapp"></i>WhatsApp</h3></a>
-                    <a href="https://www.instagram.com/vicko_zafer/" target="_blank"><h3 class="red"><i class="fab fa-instagram"></i>Instagram</h3></a>
-                    <a href="https://www.facebook.com/TiendaVickoFlores" target="_blank"><h3 class="red"><i class="fab fa-facebook"></i>Facebook</h3></a>
-                    <a href="https://twitter.com/VickoFlores123" target="_blank"><h3 class="red"><i class="fab fa-twitter"></i>Twitter</h3></a>
+            <main>
+                <section class="Inf">
+                    <h3>Información</h3>
+                    <p>La Pastelería de Mamucha es un legado familiar que data desde 500 A.C. <br>
+                        Nuestras presparaciones se destacan por las más exquisitas, y detalladas, tanto así que hasta mi tataratara...abuelo
+                        preparó el banquete para la reina Isabel.
+                        <a href="#Contac">Contáctanos.</a>
+                        <br>
+                        Ver sucursal de Paris<a href="#Paris"><i class="far fa-eye"></i></a>
+                        <br>
+                        Ver sucursal de China<a href="#China"><i class="far fa-eye"></i></a>
+                        <br>
+                        Ver sucursal del Submarino de Nemo<a href="#Nemo"><i class="far fa-eye"></i></a>
+                        <br>
+                    </p>
 
-        </footer>
+                </section>
+
+                <section class="Sucur">
+                    <h3>Sucursales</h3>
+                    <ul>
+                        <li><a name="Paris"></a><a href="https://goo.gl/maps/pNhpNyub2mMu3DMD7">Paris, al ladito de la Torre Effiel</a></li>
+                        <iframe class="Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d167998.10803373053!2d2.206977064368058!3d48.858774103123785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2zUGFyw61zLCBGcmFuY2lh!5e0!3m2!1ses-419!2sar!4v1619536274520!5m2!1ses-419!2sar" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <li><a name="China"></a><a href="https://goo.gl/maps/YVwKZ6WNCLYUsmuL6">Al final de la Muralla de China</a></li>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.9587739884355!2d116.56818621502822!3d40.43191176264057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35f121d7687f2ccf%3A0xd040259b950522df!2sMuralla%20China!5e0!3m2!1ses-419!2sar!4v1619702329912!5m2!1ses-419!2sar" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <li><a name="Nemo"></a><a href="https://goo.gl/maps/cMV5r5Dvk3NxUXrG8">En el camarote 3 del Submarino de Nemo</a></li>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49232530.168156125!2d-30.47072705000001!3d-41.13637775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a518a690ca2a93d%3A0xdce616971e86954!2sAtl%C3%A1ntico%20Sur!5e0!3m2!1ses-419!2sar!4v1619773646383!5m2!1ses-419!2sar" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </ul>
+                </section>
+            </main>
+
+            <aside>
+                <section>
+                    <h3>Tabla de Precios</h3>
+                    <table>
+                        <tr>
+                            <th>Precios</th>
+                            <th>Tipo</th>
+                            <th>Cantidad</th>
+                        </tr>
+
+                        <tr>
+                            <td>$500</td>
+                            <td>CupCakes</td>
+                            <td>12</td>
+                        </tr>
+
+                        <tr>
+                            <td>$850</td>
+                            <td>Torta</td>
+                            <td>1</td>
+                        </tr>
+
+                        <tr>
+                            <td>$700</td>
+                            <td>Tiramisú</td>
+                            <td>1</td>
+                        </tr>
+                    </table>
+                </section>
+                <section>
+                    <h3>Formulario de Pedidos</h3>
+                    <form action="mailto:vg134420@gmail.com" method="POST" enctype="text/plain">
+
+                    <p>Nombre</p><input type="text" name="nombre" size="15" maxlength="50">
+                    <br>
+                    <p>Apellido</p><input type="text" name="nombre" size="15" maxlength="50">
+                    <br>
+                    <p>Email</p><input type="text" name="email" size="15" maxlength="50">
+                    <br>
+                    <p>Mes de entrega</p><input type="month" name="mes" size="15">
+                    <br>
+                    <p>Hora de Entregra</p><input type="time" name="hora" size="15">
+                    <br>
+                    <p>Lugar de Entrega</p><input type="text" name="lugar" size="15">
+                    <br>
+                    <p>Número de Celular</p><input type="tel" name="tel" size="15">
+                    <br>
+                    <h3>¿Que quiere?</h3>
+                    <img src="Tortas.jpg" width="200px">
+                    <br>
+                    <p>Pastel</p><input type="checkbox" name="Pastel" size="15">
+
+                    <p>Cantidad</p><input type="number" name="cant1" size="15">
+                    <br>
+                    <img src="pexels-jess-bailey-designs-853006.jpg" width="200px">
+                    <br>
+                    <p>CupCakes</p><input type="checkbox" name="Cup" size="15">
+
+                    <p>Cantidad</p><input type="number" name="cant2" size="15">
+                    <br>
+                    <img src="Tiramisu.jpg" width="200px">
+                    <br>
+                    <p>Tiramisú</p><input type="checkbox" name="Tira" size="15">
+
+                    <p>Cantidad</p><input type="number" name="cant3" size="15">
+                    <br>
+                    <input type="submit" value="Enviar" class="submit">
+                    </form>
+                </section>
+
+
+            </aside>
+
+
+            <footer>
+
+                <a name="Contac"></a>
+
+                <h2>Información</h2>
+
+                        <h3>Todos los Derechos Reservados</h3>
+
+                <h2>Contacto</h2>
+                        <a href="https://wa.me/qr/3E3ZAQ53YCCON1" target="_blank"><h3 class="red"><i class="fab fa-whatsapp"></i>WhatsApp</h3></a>
+                        <a href="https://www.instagram.com/vicko_zafer/" target="_blank"><h3 class="red"><i class="fab fa-instagram"></i>Instagram</h3></a>
+                        <a href="https://www.facebook.com/TiendaVickoFlores" target="_blank"><h3 class="red"><i class="fab fa-facebook"></i>Facebook</h3></a>
+                        <a href="https://twitter.com/VickoFlores123" target="_blank"><h3 class="red"><i class="fab fa-twitter"></i>Twitter</h3></a>
+
+            </footer>
+        </div>
         
     </body>
 </html>
