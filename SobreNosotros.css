@@ -1,0 +1,197 @@
+@media screen and (max-width: 768px) {
+    .Contenedor header h1{
+        font-size: 6vw;
+    }
+
+    .Contenedor header nav ul li{
+        min-width: 20vw;
+    }
+
+    .Contenedor main{
+        grid-column: 1/5;
+        grid-row: 2/3;
+    }
+
+    .Contenedor aside{
+        grid-column: 5/6;
+        grid-row: 2/3;
+    }
+
+    .Contenedor footer{
+        grid-column: 1/6;
+        grid-row: 3/4;
+    }
+
+    
+}
+
+@media screen and (max-width: 500px) {
+    .Contenedor{
+        min-width: 100%;
+    }
+
+    .Contenedor header nav ul li{
+        min-width: 18vw;
+    }
+
+    .Contenedor header h1{
+        font-size: 5vw;
+    }
+
+    .Contenedor main{
+        grid-column: 1/6;
+        grid-row: 2/3;
+    }
+
+    .Contenedor aside{
+        grid-column: 1/6;
+        grid-row: 3/4;
+    }
+
+    .Contenedor aside form,
+    .Contenedor aside table,
+    .Contenedor aside img{
+        max-width: 80%;
+    }
+
+    .Contenedor footer{
+        grid-column: 1/6;
+        grid-row: 4/5;
+    }
+
+    .Contenedor footer a{
+        display: block;
+    }
+
+    
+}
+
+*{
+    font-family: "Bunny Honey";
+}
+
+
+
+.Contenedor{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+}
+
+main{
+    grid-column: 1/5;
+    grid-row: 2/3;
+}
+
+main h3{
+    font-size: 30px;
+    color:rgb(248, 10, 216);
+    text-align: center;
+    background-color: white;
+    border:solid 3px rgb(248, 10, 216);
+    border-radius: 20px;
+}
+
+p{
+    margin: 3px;
+}
+
+
+
+.Inf{
+    background-color: rgb(253, 201, 240);
+    border-radius: 20px;
+    
+}
+
+.Sucur{
+    background-color: rgb(253, 201, 240);
+    border-radius: 20px;
+
+}
+
+aside {
+   margin: 0px;
+    background-color: rgb(253, 201, 240);
+    border-radius: 20px;
+    grid-column: 5/6;
+    grid-row: 2/3;
+}
+
+aside h2{
+    font-size: 30px;
+    color:rgb(248, 10, 216);
+    text-align: center;
+    background-color: white;
+    border:solid 3px rgb(248, 10, 216);
+    border-radius: 20px;
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+
+
+form{
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+
+
+form input{
+    background-color: white;
+    border-radius: 20px;
+    border: solid 3px rgb(248, 10, 216);
+    margin: 3px;
+}
+
+form img{
+    border-radius: 50px;
+    border: solid 3px white;
+    margin: auto;
+    display: block;
+}
+
+form p{
+    display: inline;
+    font-size: 20px;
+}
+.submit{
+    box-shadow: 2px 2px 1px black;
+    background: linear-gradient(to bottom, #ffe8d4, #cf059d);
+    border-radius: 20px;
+    margin: 5px;
+    width: 100px;
+    border: outset 3px rgb(248, 10, 216);
+    color: white;
+}
+
+table{
+    margin: auto;
+    margin-bottom: 3px;
+    background-color: white;
+    border-radius: 20px;
+    border: solid rgb(248, 10, 216) 3px;
+}
+
+th{
+    border: rgb(248, 10, 216) solid 3px;
+    border-radius: 20px;
+    
+}
+
+tr{
+
+    border: rgb(248, 10, 216) solid 3px;
+    border-radius: 20px;
+    
+}
+
+td{
+    border: rgb(248, 10, 216) solid 3px;
+    border-radius: 20px;
+    text-align: center;
+}
