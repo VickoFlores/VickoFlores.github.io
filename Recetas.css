@@ -1,0 +1,203 @@
+@media screen and (max-width: 768px){
+
+    .Contenedor footer{
+        grid-column: 1/6;
+        grid-row: 3/4;
+    }
+
+    .Contenedor header h1{
+        font-size: 6vh;
+    }
+
+    .Contenedor header nav ul li{
+        min-width: 20vw;
+        
+    }
+
+    .Contenedor main{
+        grid-column: 1/5;
+        grid-row: 2/3;
+    }
+
+    .Contenedor aside{
+        grid-column: 5/6;
+        grid-row: 2/3;
+    }
+
+    .Contenedor h2{
+        font-size: 4vw;
+    }
+
+    
+}
+
+@media screen and (max-width: 500px){
+    .Contenedor main{
+        grid-column: 1/6;
+        grid-row: 2/3;
+    }
+
+    .Contenedor{
+        width: 100%;
+    }
+
+    .Contenedor aside{
+        grid-column: 1/6;
+        grid-row: 3/4;
+    }
+
+    .Contenedor aside form{
+        max-width: 80%;
+    }
+
+    .Contenedor aside form input{
+        width: 60vw;
+    }
+
+    .Contenedor aside form textarea{
+        min-width: 80%;
+        
+    }
+
+    .Contenedor footer{
+        grid-column: 1/6;
+        grid-row: 4/5;
+    }
+
+    .Contenedor footer a{
+        display: block;
+
+    }
+    .Contenedor header nav ul li {
+        min-width: 18vw;    
+    }
+
+
+    .Contenedor header h1{
+        font-size: 5vh;
+    }
+
+    .post {
+        min-width: 100%;
+    }
+
+    .Contenedor h2{
+        font-size: 4vw;
+    }
+
+}
+.Contenedor{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: "Bunny Honey";
+}
+
+header{
+    grid-column: 1/6;
+    grid-row: 1/2;
+}
+
+main{
+    background-image: url("../IMGS/donut-1727498_640.png");
+    text-align: center;
+    border-radius: 20px;
+    border: dashed  3px rgb(248, 10, 216);
+    box-sizing: border-box;
+    grid-column: 1/5;
+    grid-row: 2/5;
+    align-items: stretch;
+}
+
+.post{
+    width: 20vw;
+    background-color: rgb(255, 132, 255);
+    border: 6px dotted rgb(253, 248, 252);
+    color: white;
+    font-size: 25px;
+    padding: 3px;
+    box-sizing: border-box;
+    margin: 1%;
+    display: inline-table;
+    border-radius: 20px;
+    justify-content: space-around;
+}
+
+.post img{
+    width: 100%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+
+.post h3{
+    text-align: center;
+    background-color:rgb(247, 105, 223);
+    margin: none;
+    margin: 0px;
+    padding-top: 3px;
+}
+
+
+aside {
+    background-color: rgb(253, 201, 240);
+    border-radius: 20px;
+    grid-column: 5/6;
+    grid-row: 2/3;
+    
+    
+}
+
+aside h2{
+    font-size: 30px;
+    color:rgb(248, 10, 216);
+    text-align: center;
+    background-color: white;
+    border:solid 3px rgb(248, 10, 216);
+    border-radius: 20px;
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+
+form{
+    margin: auto;
+}
+
+form input{
+    background-color: white;
+    border-radius: 20px;
+    border: solid 3px rgb(248, 10, 216);
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    width: 20vw;
+
+}
+
+form textarea{
+    align-self: center;
+    max-width: 15vw;
+
+}
+
+.submit{
+    box-shadow: 2px 2px 1px black;
+    background: linear-gradient(to bottom, #ffe8d4, #cf059d);
+    border-radius: 20px;
+    margin: 5px;
+    width: 100px;
+    border: outset 3px rgb(248, 10, 216);
+    color: white;
+    margin: auto;
+    margin-top: 5%;
+}
+
+
