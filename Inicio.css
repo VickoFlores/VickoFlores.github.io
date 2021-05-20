@@ -1,0 +1,413 @@
+@media screen and (max-width: 768px){
+
+    .Contenedor footer{
+        grid-column: 1/6;
+        grid-row: 3/4;
+    }
+
+    .Contenedor header h1{
+        font-size: 6vw;
+    }
+
+    .Contenedor header nav ul li{
+        min-width: 20vw;
+        
+    }
+
+    .Contenedor main{
+        grid-column: 1/5;
+        grid-row: 2/3;
+    }
+
+    .Contenedor aside{
+        grid-column: 5/6;
+        grid-row: 2/3;
+    }
+
+    .Contenedor main #R1{
+        width: 95%;
+    }
+
+    .Contenedor main #R2{
+        width: 95%;
+    }
+
+    .Contenedor main #R3{
+        width: 95%;
+    }
+
+    .Contenedor h2{
+        font-size: 4vw;
+    }
+    
+}
+
+@media screen and (max-width: 500px){
+    .Contenedor main{
+        grid-column: 1/6;
+        grid-row: 2/3;
+    }
+
+    .Contenedor{
+        min-width: 100%;
+    }
+
+    .Contenedor aside{
+        grid-column: 1/6;
+        grid-row: 3/4;
+    }
+
+    .Contenedor aside form,
+    .Contenedor aside table,
+    .Contenedor aside iframe,
+    .Contenedor aside img,
+    .Contenedor aside ol {
+        max-width: 80%;
+    }
+
+    
+
+    .Contenedor footer{
+        grid-column: 1/6;
+        grid-row: 4/5;
+    }
+
+    .Contenedor footer a{
+        display: block;
+
+    }
+    .Contenedor header nav ul li {
+        min-width: 18vw;    
+    }
+
+
+    .Contenedor header h1{
+        font-size: 5vw;
+    }
+
+    .Contenedor main #R1{
+        width: 95%;
+    }
+
+    .Contenedor main #R2{
+        width: 95%;
+    }
+
+    .Contenedor main #R3{
+        width: 95%;
+    }
+
+    .Contenedor h2{
+        font-size: 6vw;
+    }
+}
+
+
+*{
+    box-sizing: border-box;
+    font-family: "Bunny Honey";
+}
+
+
+
+body{
+    background-color: white;
+    background-repeat: repeat;
+    font-family: "Bunny Honey";
+}
+
+.Contenedor{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+}
+
+header{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+
+main{
+    
+    background-image: url("../IMGS/Helado.png");
+    justify-items: center;
+    align-items: center;
+    margin: 0px;
+    text-align: center;
+    border-radius: 20px;
+    border: dashed  3px rgb(248, 10, 216);
+    box-sizing: border-box;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+}
+
+
+#R1{
+    background-color: rgb(255, 132, 255);
+    border: 6px dotted rgb(253, 248, 252);
+    color: white;
+    font-size: 25px;
+    width: 90%;
+    padding: 3px;
+    box-sizing: border-box;
+    justify-items: center;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 20px;
+
+}
+
+#R1 img{
+    width: 100%;
+    margin: auto;
+}
+
+#R1 h3{
+    text-align: center;
+    background-color:rgb(247, 105, 223);
+    margin: 0px;
+    padding-top: 3px;
+}
+
+#R1 i{
+    color: white;
+    font-size: 65%;
+    text-align: right;
+    margin: 0px;
+    background-color: rgb(247, 105, 223);
+    display: none;
+}
+
+#R1 p{
+    display: none;
+    font-size: 15px;
+    text-align: left;
+}
+
+
+#R2{
+    background-color: rgb(255, 132, 255);
+    border: 6px dotted rgb(253, 248, 252);
+    color: white;
+    font-size: 25px;
+    width: 40%;
+    padding: 3px;
+    box-sizing: border-box;
+    margin: 5px;
+    display: inline-table;
+    border-radius: 20px;
+    
+    
+    
+}
+
+#R2 img{
+    width: 100%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+#R2 h3{
+    text-align: center;
+    background-color:rgb(247, 105, 223);
+    margin: none;
+    margin: 0px;
+    padding-top: 3px;
+}
+
+#R2 i{
+    color: white;
+    font-size: 15px;
+    text-align: right;
+    margin: 0px;
+    background-color: rgb(247, 105, 223);
+    display: none;
+}
+
+#R2 p{
+    display: none;
+    font-size: 15px;
+    text-align: left;
+}
+
+
+
+#R3{
+    background-color: rgb(255, 132, 255);
+    border: 6px dotted rgb(253, 248, 252);
+    color: white;
+    font-size: 25px;
+    width: 40%;
+    padding: 3px;
+    box-sizing: border-box;
+    justify-items: right;
+    margin: 5px;
+    display: inline-table;
+    border-radius: 20px;
+}
+
+#R3 img{
+    width: 100%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+#R3 h3{
+    text-align: center;
+    background-color:rgb(247, 105, 223);
+    margin: none;
+    margin: 0px;
+    padding-top: 3px;
+}
+
+#R3 i{
+    color: white;
+    font-size: 15px;
+    text-align: right;
+    margin: auto;
+    background-color: rgb(247, 105, 223);
+    display: none;
+}
+
+#R3 p{
+    display: none;
+    font-size: 15px;
+    text-align: left;
+}
+
+
+
+aside{
+    background-color: thistle;
+    background-repeat: repeat;
+    color: white;
+    margin: 0px;
+    border-radius: 20px;
+    background-image: url("../IMGS/Fondito.jpg");
+    color: rgb(248, 10, 216);
+    border: rgb(248, 10, 216) dashed 3px;
+    box-sizing: border-box;
+    grid-column-start: 5;
+    grid-column-end: 6;
+
+}
+
+aside h2{
+    font-size: 180%;
+    text-align: center;
+    padding: 3px;
+    box-sizing: border-box;
+    background-color: rgb(253, 201, 240);
+    margin-bottom: 3px;
+}
+
+form{
+    background-color: rgb(253, 201, 240);
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    
+}
+
+form input{
+    border: rgb(248, 10, 216) 2px solid;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 20px;
+    width: 95%;
+    font-family: "Bunny Honey";
+}
+
+form label{
+    margin: 10px;
+}
+
+
+.submit{
+    box-shadow: 2px 2px 1px black;
+    background: linear-gradient(to bottom, #ffe8d4, #cf059d);
+    border-radius: 20px;
+    margin: 5px;
+    width: 10%;
+    border: outset 3px rgb(248, 10, 216);
+    color: white;
+    box-sizing: border-box;
+}
+
+
+
+table{
+    background-color: rgb(253, 201, 240);
+    border: rgb(248, 10, 216) solid 3px;
+    margin: auto;
+    margin-bottom: 5px; 
+    width: 100%; 
+}
+
+table th{
+    border: rgb(248, 10, 216) solid 3px;
+}
+
+
+table td{
+    border: rgb(248, 10, 216) solid 3px;
+}
+
+table td iframe{
+    width: 95%;
+    margin: auto; 
+}
+
+.Mapa{
+    margin: auto;
+    width: 100%;
+}
+
+.Map{
+    width: 100%;
+    max-height: 300px;
+
+}
+
+.ListCon ol{
+    background-color: rgb(253, 201, 240);
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 3px;
+    width: 100%;
+
+}
+
+.Ads a img{
+    display: block;
+    margin: auto;
+    margin-bottom: 3px;
+    border-radius: 20px;
+    width: 100%;
+
+}
+
+aside iframe{
+    display: block;
+    margin: auto;
+}
+
+
+footer{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;  
+}
