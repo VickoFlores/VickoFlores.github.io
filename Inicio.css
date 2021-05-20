@@ -136,7 +136,7 @@ header{
 
 main{
     
-    background-image: url("../IMGS/Helado.png");
+    background-image: url("Helado.png");
     justify-items: center;
     align-items: center;
     margin: 0px;
@@ -293,7 +293,7 @@ aside{
     color: white;
     margin: 0px;
     border-radius: 20px;
-    background-image: url("../IMGS/Fondito.jpg");
+    background-image: url("Fondito.jpg");
     color: rgb(248, 10, 216);
     border: rgb(248, 10, 216) dashed 3px;
     box-sizing: border-box;
