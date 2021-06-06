@@ -106,6 +106,23 @@ header{
     grid-row: 1/2;
 }
 
+
+#carouselExampleSlidesOnly{
+    margin: auto;
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+.carousel-inner{
+    width: 500px;
+    margin: auto;
+}
+
+.carousel-item{
+    border: double rgb(248, 10, 216) 5px;
+}
+
+
 main{
     background-image: url("donut-1727498_640.png");
     text-align: center;
