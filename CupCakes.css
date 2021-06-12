@@ -1,3 +1,12 @@
+.Contenedor{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+}
 @media screen and (max-width: 800px){
 
     .Contenedor footer{
@@ -26,7 +35,7 @@
 }
 
 
-@media (max-width: 400px){
+@media screen and(max-width: 400px){
     .Contenedor main{
         grid-column: 1/6;
         grid-row: 2/3;
@@ -71,15 +80,7 @@
 
 
 
-.Contenedor{
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: 2;
-    grid-template-rows: 2;
-}
+
 
 *{
     box-sizing: border-box;
