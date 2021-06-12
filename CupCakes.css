@@ -26,7 +26,7 @@
 }
 
 
-@media screen and (min-width: 400px){
+@media screen and (max-width: 400px){
     .Contenedor main{
         grid-column: 1/6;
         grid-row: 2/3;
