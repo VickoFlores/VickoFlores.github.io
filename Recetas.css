@@ -84,6 +84,10 @@
     .Contenedor h2{
         font-size: 4vw;
     }
+    
+    #carouselExampleSlidesOnly{
+        min-width: 100%;
+    }
 
 }
 .Contenedor{
