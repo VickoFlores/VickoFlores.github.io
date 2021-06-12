@@ -36,13 +36,15 @@
 
 
 @media screen and(max-width: 400px){
-    .Contenedor main{
-        grid-column: 1/6;
-        grid-row: 2/3;
-    }
+    
 
     .Contenedor{
         min-width: 100%;
+    }
+    
+    .Contenedor main{
+        grid-column: 1/6;
+        grid-row: 2/3;
     }
 
 
