@@ -1,7 +1,6 @@
 .Contenedor{
     width: 90%;
     max-width: 1200px;
-    overflow:hidden;
     margin: auto;
     display: grid;
     grid-gap: 10px;
@@ -82,9 +81,7 @@
     }
     
     
-    *{
-        width: 100%;
-    }
+    
 }
 
 
