@@ -1,4 +1,4 @@
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 800px) {
     .Contenedor header h1{
         font-size: 6vw;
     }
@@ -25,7 +25,7 @@
     
 }
 
-@media screen and (min-width: 200px) {
+@media screen and (max-width: 400px) {
     .Contenedor{
         min-width: 100%;
     }
