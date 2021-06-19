@@ -17,13 +17,16 @@ header{
    
 }
 
+
 h1{
     text-align: center;
     font-size: 4vw;
     font-family: "Bunny Honey";
     color: rgb(248, 10, 216);
     text-shadow: 2px 2px 1px rgb(133, 2, 111);
+    animation: animate__animated animate__rubberBand;
 }
+
 
 
 nav ul li{
@@ -51,6 +54,12 @@ nav ul li > a{
     text-decoration: none;
 }
 
+nav ul li > i{
+    color: rgb(248, 10, 216);
+    text-shadow: 1px 1px 1px rgb(133, 2, 111);
+    text-decoration: none;
+}
+
 
 #Inicio{
     width: 6vw;
@@ -66,9 +75,72 @@ nav ul li > a{
 
 #About{
     width: 12vw;
- 
 
 }
+
+#MoIf{
+    width: 12vw;
+
+}
+
+
+#InicioD{
+    display: block;
+    width: 6vw;
+
+
+}
+
+#RecetasD{
+    display: block;
+    width: 8vw;
+
+    
+}
+
+#AboutD{
+    display: block;
+    width: 12vw;
+
+}
+
+#MoIfD{
+    display: block;
+    width: 12vw;
+
+}
+
+
+
+#Movil{
+    display: none;
+    width: 100%;
+    margin: auto;
+    background-color: pink;
+    border-radius: 10px;
+}
+
+#Movil ul li {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#Barra{
+    display: flex;
+    align-items: flex-end;
+    margin: 1px;
+}
+
+#EquisX{
+    margin: auto;
+    display: none;
+}
+
+#MenuDes{
+    display: none;
+}
+
 
 
 
