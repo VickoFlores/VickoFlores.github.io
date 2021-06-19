@@ -130,6 +130,9 @@
 
     .post {
         min-width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 5px;
     }
 
     .Contenedor h2{
