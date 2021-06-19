@@ -13,6 +13,29 @@
         min-width: 20vw;
         
     }
+    .Contenedor header #Inicio, #Recetas, #About, #MoIf{
+        display: none;
+    }
+
+    .Contenedor header #MenuDes{
+        display: none;
+        min-width: 100%;
+    }
+
+    .Contenedor header .Des{
+        min-width: 90%;
+    }
+
+    .Contenedor header #Movil{
+        display: block;
+        width: 100%;
+        margin: auto;
+
+    }
+
+    .Contenedor header nav ul{
+        margin: 0px;
+    }
 
     .Contenedor main{
         grid-column: 1/5;
@@ -38,7 +61,35 @@
     }
 
     .Contenedor{
+       min-width: 100%;
+    }
+
+    .Contenedor header nav ul li{
+        min-width: 20vw;
+        
+    }
+    .Contenedor header #Inicio, #Recetas, #About, #MoIf{
+        display: none;
+    }
+
+    .Contenedor header #MenuDes{
+        display: none;
+        min-width: 100%;
+    }
+
+    .Contenedor header .Des{
+        min-width: 90%;
+    }
+
+    .Contenedor header #Movil{
+        display: block;
         width: 100%;
+        margin: auto;
+
+    }
+
+    .Contenedor header nav ul{
+        margin: 0px;
     }
 
     .Contenedor aside{
@@ -83,10 +134,6 @@
 
     .Contenedor h2{
         font-size: 4vw;
-    }
-    
-    #carouselExampleSlidesOnly{
-        width: 50%;
     }
 
 }
