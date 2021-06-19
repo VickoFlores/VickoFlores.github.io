@@ -21,18 +21,33 @@
 
     <body>
         <div class="Contenedor">
-            <header>
-                <h1 class="animate__animated animate__rubberBand"> La Pastelería de Mamucha</h1>
-                <nav class="main">
-
+            <header class="header">
+                <h1 class="animate__animated animate__rubberBand">La Pastelería de Mamucha</h1>
+                <nav class="main" id="Desk">
+        
                     <ul>
                         <li id="Inicio"><a href="index.html">Inicio</a></li>
                         <li id="Recetas"><a href="Recetas.html">Recetas</a></li>
                         <li id="About"><a href="SobreNosotros.html">Sobre Nosotros</a></li>
+                        <li id="MoIf" class="Des"><a href="FAQ.html">Más Info</a></li>
                     </ul>
+        
+                </nav>
 
+                <nav id="Movil" class="main">
+                    <ul>
+                        <li class="MenuAdap">Inicio<i class="fas fa-bars" onclick="MenuB();" id="Barra"></i><i class="fas fa-times" id="EquisX" onclick="MenuN();"></i>
+                            <ul id="MenuDes">
+                                <li id="InicioD" class="Des"><a href="index.html" onclick="MenuN();">Inicio</a></li>
+                                <li id="RecetasD" class="Des"><a href="Recetas.html">Recetas</a></li>
+                                <li id="AboutD" class="Des"><a href="SobreNosotros.html">Sobre Nosotros</a></li>
+                                <li id="MoIfD" class="Des"><a href="FAQ.html">Más Info</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                 </nav>
             </header>
+
 
 
             <main id="Main"> 
