@@ -22,6 +22,30 @@
         grid-row: 3/4;
     }
 
+    .Contenedor header #Inicio, #Recetas, #About, #MoIf{
+        display: none;
+    }
+
+    .Contenedor header #MenuDes{
+        display: none;
+        min-width: 100%;
+    }
+
+    .Contenedor header .Des{
+        min-width: 90%;
+    }
+
+    .Contenedor header #Movil{
+        display: block;
+        width: 100%;
+        margin: auto;
+
+    }
+
+    .Contenedor header nav ul{
+        margin: 0px;
+    }
+
     
 }
 
@@ -32,6 +56,30 @@
 
     .Contenedor header nav ul li{
         min-width: 18vw;
+    }
+
+    .Contenedor header #Inicio, #Recetas, #About, #MoIf{
+        display: none;
+    }
+
+    .Contenedor header #MenuDes{
+        display: none;
+        min-width: 100%;
+    }
+
+    .Contenedor header .Des{
+        min-width: 90%;
+    }
+
+    .Contenedor header #Movil{
+        display: block;
+        width: 100%;
+        margin: auto;
+
+    }
+
+    .Contenedor header nav ul{
+        margin: 0px;
     }
 
     .Contenedor header h1{
@@ -65,7 +113,6 @@
 
     
 }
-
 *{
     font-family: "Bunny Honey";
 }
