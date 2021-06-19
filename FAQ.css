@@ -151,7 +151,7 @@
 }
 
 .Contenedor aside{
-    background-image: url('../IMGS/cupcake-4909453_1920.jpg');
+    background-image: url('cupcake-4909453_1920.jpg');
     background-repeat: repeat;
     border: double rgb(248, 13, 216) 5px;
     text-shadow: 5px 5px white;
